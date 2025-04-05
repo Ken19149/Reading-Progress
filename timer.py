@@ -34,14 +34,23 @@ print(f"dif: {dif}\n")
 speed_ppm = pageCount/(((difHour*60*60) + (difMin*60) + difSec)/60) # pages per min
 speed_mpp = 1/speed_ppm # mins per page
 speed_spp = speed_mpp*60 # seconds per page
-print(f"speed:\n{speed_ppm} pages/min\n{speed_mpp} mins/page\n{speed_spp} seconds/page\n")
+print(f"speed:\n{speed_ppm:.2f} pages/min\n{speed_mpp:.2f} mins/page\n{speed_spp:.2f} seconds/page\n")
 
 format = f"{pageEnd} {pageCount} {difFormat} {today} {startTime} {endTime}"
 pyperclip.copy(format)
 print(f"Format: {format} \nCopied to Clipboard")
 
-# stats updater
+# update statsto file
 
 path = open("path", "r").read()
 print(path)
 data = io.open(path, "r", encoding="utf-8").read()
+if data[-1]=="\n":
+    f = open(path, "a")
+    f.write(format)
+    f.close()
+else:
+    f = open(path, "a")
+    f.write(f"\n{format}")
+    f.close()
+
