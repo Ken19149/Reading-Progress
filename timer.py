@@ -6,13 +6,13 @@ import io
 
 print("\nReading Progress Timer Activated\n")
 
-today = str(datetime.date.today()).split(" ")[0].replace("-","")
-
 pageBegin = (input("input start page: "))
 print(f"page begin: {pageBegin}")
 start = datetime.datetime.now()
 startTime = str(start).split(" ")[1].split(".")[0].replace(":","")[0:4]
 print(f"start time: {start}\n")
+
+today = str(datetime.date.today()).split(" ")[0].replace("-","")
 
 pageEnd = (input("input end page when finish reading: "))
 end = datetime.datetime.now()
@@ -40,11 +40,11 @@ format = f"{pageEnd} {pageCount} {difFormat} {today} {startTime} {endTime}"
 pyperclip.copy(format)
 print(f"Format: {format} \nCopied to Clipboard")
 
-# update statsto file
+# update stats to file
 
 path = open("path", "r").read()
-print(path)
-data = io.open(path, "r", encoding="utf-8").read()
+
+data = io.open(path, "r", encoding="utf-8").read() # update tp original file
 if data[-1]=="\n":
     f = open(path, "a")
     f.write(format)
@@ -53,4 +53,6 @@ else:
     f = open(path, "a")
     f.write(f"\n{format}")
     f.close()
-
+data = io.open(path, "r", encoding="utf-8").read()
+f = open("data.md","wb") # update to data.md file in this folder
+f.write(data.encode("utf8"))
