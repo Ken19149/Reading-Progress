@@ -1,6 +1,7 @@
 import datetime
 import pyperclip
 import io
+from git import Repo
 
 # timer
 
@@ -56,3 +57,15 @@ else:
 data = io.open(path, "r", encoding="utf-8").read()
 f = open("data.md","wb") # update to data.md file in this folder
 f.write(data.encode("utf8"))
+
+# upload my reading progress to github
+
+def git_commit_push(message="Auto commit"):
+    repo = Repo('.')  # Current directory
+    repo.git.add(A=True)
+    repo.index.commit(message)
+    origin = repo.remote(name='origin')
+    origin.push()
+
+git_commit_push("Update Reading Progress")
+
