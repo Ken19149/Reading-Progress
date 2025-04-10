@@ -7,4 +7,4 @@ def git_commit_push(message="Auto commit"):
     origin = repo.remote(name='origin')
     origin.push()
 
-git_commit_push("Commit using GitPython")
+git_commit_push("Test")
