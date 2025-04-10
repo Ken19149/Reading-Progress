@@ -57,6 +57,9 @@ else:
 data = io.open(path, "r", encoding="utf-8").read()
 f = open("data.md","wb") # update to data.md file in this folder
 f.write(data.encode("utf8"))
+f.close()
+
+print("\nReading Progress file updated")
 
 # upload my reading progress to github
 
@@ -68,4 +71,4 @@ def git_commit_push(message="Auto commit"):
     origin.push()
 
 git_commit_push("Update Reading Progress")
-
+print("\nProgress updated to GitHub")
