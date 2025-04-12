@@ -90,7 +90,7 @@ dates, pages_read = zip(*sorted_data)
 
 # Plot
 plt.figure(figsize=(10, 5))
-plt.plot(dates, pages_read, marker="o", linestyle="-", color="royalblue")
+plt.bar(dates, pages_read, color="#00ffff")
 plt.title("Reading Progress (Pages per Day)")
 plt.xlabel("Date")
 plt.ylabel("Pages Read")
