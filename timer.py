@@ -55,7 +55,7 @@ else:
     f.write(f"\n{format}")
     f.close()
 data = io.open(path, "r", encoding="utf-8").read()
-f = open("data.md","wb") # update to data.md file in this folder
+f = open("output/data.md","wb") # update to data.md file in this folder
 f.write(data.encode("utf8"))
 f.close()
 
@@ -72,3 +72,6 @@ def git_commit_push(message="Auto commit"):
 
 git_commit_push("Update Reading Progress")
 print("\nProgress updated to GitHub")
+
+# convert data to json file and save visualized image
+import data

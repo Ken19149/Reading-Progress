@@ -1,0 +1,368 @@
+[
+  {
+    "title": "読書嫌いのための図書室案内",
+    "entries": [
+      {
+        "page": 28,
+        "page_count": 22,
+        "time": null,
+        "date": "2025-01-02",
+        "start": null,
+        "end": null,
+        "speed": null
+      },
+      {
+        "page": 54,
+        "page_count": 26,
+        "time": 140,
+        "date": "2025-01-03",
+        "start": null,
+        "end": null,
+        "speed": 5.38
+      },
+      {
+        "page": 89,
+        "page_count": 35,
+        "time": 140,
+        "date": "2025-01-04",
+        "start": null,
+        "end": null,
+        "speed": 4.0
+      },
+      {
+        "page": 96,
+        "page_count": 7,
+        "time": 50,
+        "date": "2025-01-05",
+        "start": null,
+        "end": null,
+        "speed": 7.14
+      },
+      {
+        "page": 106,
+        "page_count": 11,
+        "time": 58,
+        "date": "2025-01-06",
+        "start": null,
+        "end": null,
+        "speed": 5.27
+      },
+      {
+        "page": 138,
+        "page_count": 31,
+        "time": 141,
+        "date": "2025-01-07",
+        "start": null,
+        "end": null,
+        "speed": 4.55
+      },
+      {
+        "page": 193,
+        "page_count": 55,
+        "time": 252,
+        "date": "2025-01-18",
+        "start": null,
+        "end": null,
+        "speed": 4.58
+      },
+      {
+        "page": 232,
+        "page_count": 38,
+        "time": 137,
+        "date": "2025-01-19",
+        "start": null,
+        "end": null,
+        "speed": 3.61
+      },
+      {
+        "page": 259,
+        "page_count": 27,
+        "time": 103,
+        "date": "2025-01-20",
+        "start": null,
+        "end": null,
+        "speed": 3.81
+      },
+      {
+        "page": 285,
+        "page_count": 26,
+        "time": 100,
+        "date": "2025-01-21",
+        "start": null,
+        "end": null,
+        "speed": 3.85
+      },
+      {
+        "page": 303,
+        "page_count": 19,
+        "time": 106,
+        "date": "2025-01-22",
+        "start": null,
+        "end": null,
+        "speed": 5.58
+      }
+    ],
+    "total_time": 1227
+  },
+  {
+    "title": "ほしのこえ・新海誠",
+    "entries": [
+      {
+        "page": 21,
+        "page_count": 12,
+        "time": 48,
+        "date": "2025-01-123",
+        "start": null,
+        "end": null,
+        "speed": 4.0
+      },
+      {
+        "page": 36,
+        "page_count": 16,
+        "time": 78,
+        "date": "2025-01-26",
+        "start": null,
+        "end": null,
+        "speed": 4.88
+      },
+      {
+        "page": 42,
+        "page_count": 4,
+        "time": 22,
+        "date": "2025-01-27",
+        "start": null,
+        "end": null,
+        "speed": 5.5
+      },
+      {
+        "page": 52,
+        "page_count": 10,
+        "time": 54,
+        "date": "2025-01-28",
+        "start": null,
+        "end": null,
+        "speed": 5.4
+      },
+      {
+        "page": 70,
+        "page_count": 18,
+        "time": 72,
+        "date": "2025-01-29",
+        "start": null,
+        "end": null,
+        "speed": 4.0
+      },
+      {
+        "page": 77,
+        "page_count": 7,
+        "time": 38,
+        "date": "2025-01-30",
+        "start": null,
+        "end": null,
+        "speed": 5.43
+      },
+      {
+        "page": 106,
+        "page_count": 29,
+        "time": 83,
+        "date": "2025-02-01",
+        "start": null,
+        "end": null,
+        "speed": 2.86
+      },
+      {
+        "page": 122,
+        "page_count": 15,
+        "time": 76,
+        "date": "2025-02-02",
+        "start": "05:17",
+        "end": "06:33",
+        "speed": 5.07
+      },
+      {
+        "page": 142,
+        "page_count": 18,
+        "time": 74,
+        "date": "2025-02-09",
+        "start": "16:08",
+        "end": "17:22",
+        "speed": 4.11
+      },
+      {
+        "page": 174,
+        "page_count": 27,
+        "time": 108,
+        "date": "2025-02-22",
+        "start": "08:30",
+        "end": "10:18",
+        "speed": 4.0
+      },
+      {
+        "page": 223,
+        "page_count": 34,
+        "time": 124,
+        "date": "2025-02-23",
+        "start": "16:22",
+        "end": "18:18",
+        "speed": 3.65
+      }
+    ],
+    "total_time": 777
+  },
+  {
+    "title": "夜に駆ける・YOASOBI",
+    "entries": [
+      {
+        "page": 28,
+        "page_count": 20,
+        "time": 18,
+        "date": "2025-03-01",
+        "start": "21:13",
+        "end": "21:33",
+        "speed": 0.9
+      },
+      {
+        "page": 53,
+        "page_count": 23,
+        "time": 60,
+        "date": "2025-03-03",
+        "start": "20:38",
+        "end": "21:38",
+        "speed": 2.61
+      },
+      {
+        "page": 70,
+        "page_count": 17,
+        "time": 42,
+        "date": "2025-03-05",
+        "start": "17:16",
+        "end": "17:58",
+        "speed": 2.47
+      },
+      {
+        "page": 87,
+        "page_count": 17,
+        "time": 38,
+        "date": "2025-03-06",
+        "start": "16:25",
+        "end": "17:03",
+        "speed": 2.24
+      },
+      {
+        "page": 100,
+        "page_count": 13,
+        "time": 32,
+        "date": "2025-03-08",
+        "start": "11:40",
+        "end": "12:12",
+        "speed": 2.46
+      },
+      {
+        "page": 128,
+        "page_count": 29,
+        "time": 64,
+        "date": "2025-03-19",
+        "start": "07:34",
+        "end": "08:47",
+        "speed": 2.21
+      },
+      {
+        "page": 145,
+        "page_count": 15,
+        "time": 29,
+        "date": "2025-03-22",
+        "start": "12:57",
+        "end": "13:26",
+        "speed": 1.93
+      },
+      {
+        "page": 186,
+        "page_count": 38,
+        "time": 78,
+        "date": "2025-03-23",
+        "start": "11:42",
+        "end": "13:00",
+        "speed": 2.05
+      },
+      {
+        "page": 228,
+        "page_count": 38,
+        "time": 106,
+        "date": "2025-03-31",
+        "start": "20:43",
+        "end": "22:29",
+        "speed": 2.79
+      }
+    ],
+    "total_time": 467
+  },
+  {
+    "title": "かがみの孤城（上）・辻村深月",
+    "entries": [
+      {
+        "page": 37,
+        "page_count": 25,
+        "time": 74,
+        "date": "2025-04-01",
+        "start": "14:47",
+        "end": "16:00",
+        "speed": 2.96
+      },
+      {
+        "page": 53,
+        "page_count": 16,
+        "time": 39,
+        "date": "2025-04-02",
+        "start": "17:08",
+        "end": "17:47",
+        "speed": 2.44
+      },
+      {
+        "page": 75,
+        "page_count": 22,
+        "time": 57,
+        "date": "2025-04-03",
+        "start": "23:15",
+        "end": "00:12",
+        "speed": 2.59
+      },
+      {
+        "page": 83,
+        "page_count": 8,
+        "time": 18,
+        "date": "2025-04-06",
+        "start": "15:00",
+        "end": "15:18",
+        "speed": 2.25
+      },
+      {
+        "page": 92,
+        "page_count": 8,
+        "time": 24,
+        "date": "2025-04-08",
+        "start": "21:26",
+        "end": "21:50",
+        "speed": 3.0
+      },
+      {
+        "page": 112,
+        "page_count": 20,
+        "time": 56,
+        "date": "2025-04-10",
+        "start": "15:43",
+        "end": "16:39",
+        "speed": 2.8
+      },
+      {
+        "page": 141,
+        "page_count": 30,
+        "time": 71,
+        "date": "2025-04-12",
+        "start": "18:49",
+        "end": "20:01",
+        "speed": 2.37
+      }
+    ],
+    "total_time": 339
+  }
+]
